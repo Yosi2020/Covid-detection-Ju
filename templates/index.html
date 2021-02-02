@@ -1,0 +1,47 @@
+{% extends "base.html" %} {% block content %}
+<center>
+<h1>Jimma University(JIT)</h1>
+<h2>Faculty of Electrical and Computer Engineering</h2>
+<h3>Communication stream</h3>
+<h3>4th year mini project</h3>
+</center>
+<div>
+    <p>Coronavirus disease (COVID-19) is an infectious disease caused by a newly discovered coronavirus. Most people infected with the COVID-19 virus will experience mild to moderate respiratory illness and recover without requiring special treatment.<br>
+    <center>source @WHO website</center></p>
+    <br>
+    <p>This App have total Accuracy 93%
+        <br>
+    Covid-19 positive detection with Accuracy 98%, Normal person detection with Accuracy  98%, Pneumonia postive detection with accuracy 83%</p>
+</div>
+
+<div>
+    <br>
+    <br>
+    <P>Please when you add images be sure your images have high quality</P><br>
+    <p>Please Enter your X-ray Images</p>
+    <form id="upload-file" method="post" enctype="multipart/form-data">
+        <label for="imageUpload" class="upload-label">
+            Choose...
+        </label>
+        <input type="file" name="file" id="imageUpload" accept=".png, .jpg, .jpeg">
+    </form>
+
+    <div class="image-section" style="display:none;">
+        <div class="img-preview">
+            <div id="imagePreview">
+            </div>
+        </div>
+        <div>
+            <button type="button" class="btn btn-primary btn-lg " id="btn-predict">Predict!</button>
+        </div>
+
+    </div>
+
+    <div class="loader" style="display:none;"></div>
+    <h4 id="result">
+        <span> </span>
+    </h4>
+   
+</div>
+
+{% endblock %}
