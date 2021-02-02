@@ -8,6 +8,6 @@ you can get the model from https://drive.google.com/file/d/1-3rdfz-iwg8BEWTT_Xam
 
 coming soon the other code part data Loading, data preparation, model developing and predicting 
 
-any question you can get at eyosimar524@gmail.com
+any question you can get at eyosimar524@gmail.
 
-Ethiopia Jimma university
+Jimma university, Ethiopia
