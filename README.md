@@ -1,4 +1,4 @@
-# Covid-detection-Ju
+# Covid 19-detection-Ju
 
 This project detect covid-19, normal and pneumonia using VGG-19 with acuuracy of 98, 98, 83% respective.
 
