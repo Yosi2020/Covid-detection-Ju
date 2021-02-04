@@ -6,7 +6,7 @@ first create upload folder and save images files on the upload folder and create
 
 you can get the model from https://drive.google.com/file/d/1-3rdfz-iwg8BEWTT_XamcGU6nvFi9e-n/view?usp=sharing
 
-now other code part data Loading, data preparation, model developing and predicting is inculde in #main-code folder
+now the rest code part such that data Loading, data preparation, model developing and predicting are inculde in #main-code folder
 
 any question you can get at eyosimar524@gmail.
 
