@@ -1,6 +1,6 @@
 # Covid-19 detection using chest X-ray result in Ju
 
-This project detect covid-19, normal and pneumonia using VGG-19 with acuuracy of 98, 98, 83% respective.
+This project detect covid-19, normal and pneumonia by checking their chest x-ray result using VGG-19 with acuuracy of 98, 98, 83% respective.
 
 first create upload folder and save images files on the upload folder and create model folder then download and past the model in the model folder.
 
